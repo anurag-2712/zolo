@@ -1,0 +1,19 @@
+.footer {
+    height: 40px;
+    color: #fff;
+    max-width: 1250px;
+    margin: 40px auto 0;
+    background-color: #263238;
+    padding-top: 20px;
+    text-align: center;
+    font-family: $textFont;
+
+    span {
+        padding: 20px;
+
+        a {
+            color: #fff;
+        }
+    }
+
+}

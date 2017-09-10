@@ -1,0 +1,43 @@
+.imagesContainer {
+    margin: 10px auto;
+    max-width: 1100px;
+
+    .imageLinks {
+        margin-right: 20px;
+        vertical-align: top;
+    }
+
+    .imageBlockHead {
+        margin-bottom: 20px;
+
+        .imageBlckTitle {
+            font-family: $headingFont;
+            color: $headingColor;
+            font-size: 30px;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+    }
+
+    .imageBlock a {
+        background-color: $secondaryColor;
+        color: #fff;
+        display: block;
+        font-family: $textFont;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        text-decoration: none;
+        width: 180px;
+    }
+
+    .bannerImage {
+        max-width: 1000px;
+
+        img {
+            max-height: 400px;
+            max-width: 1000px;
+        }
+    }
+}

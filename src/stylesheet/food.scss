@@ -1,0 +1,33 @@
+.foodSubTitle {
+    border-bottom: 1px solid $subHeadingColor;
+    color: $subHeadingColor;
+    font-family: $textFont;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 150px;
+}
+
+.foodCat {
+    display: inline-block;
+    width: 33%;
+}
+
+.foodImage {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.foodDetails {
+    display: inline-block;
+}
+
+.meal {
+    font-family: $textFont;
+    font-weight: bold;
+}
+
+.option {
+    color: $secondaryColor;
+}

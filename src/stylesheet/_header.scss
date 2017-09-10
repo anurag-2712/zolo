@@ -1,0 +1,63 @@
+body {
+    margin: auto;
+    max-width: 1400px;
+}
+
+.header {
+    clear: both;
+    height: 45px;
+    margin: 20px auto 40px;
+    max-width: 1250px;
+
+    .logo {
+        display: inline-block;
+        margin: 0 0 0 10px;
+        width: 30%;
+
+        img {
+            max-height: 50px;
+            max-width: 50px;
+        }
+    }
+
+    .searchBox {
+        display: inline-block;
+        vertical-align: top;
+        width: 57%;
+
+        .search {
+            color: #000;
+            font-weight: bold;
+            height: 35px;
+            padding-left: 10px;
+            width: 400px;
+        }
+
+        .searchSubmit {
+            background-color: #00a1df;
+            border: medium none;
+            color: #fff;
+            font-weight: bold;
+            height: 35px;
+            width: 120px;
+            cursor: pointer;
+        }
+    }
+
+    .loginFields {
+        float: right;
+        margin-right: 20px;
+        margin-top: 10px;
+
+        .login {
+            color: #263238;
+            margin-right: 15px;
+            text-decoration: none;
+        }
+
+        .signup {
+            color: #263238;
+            text-decoration: none;
+        }
+    }
+}

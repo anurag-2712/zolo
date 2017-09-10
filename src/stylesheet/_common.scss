@@ -1,0 +1,21 @@
+.categoryHeading {
+    border-top: 1px solid $borderColor;
+    color: $headingColor;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+.title {
+    font-family: $textFont;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.in-bl {
+    display: inline-block;
+}
+
+a {
+    cursor: pointer;
+}

@@ -1,0 +1,34 @@
+@import "header";
+@import "config";
+@import "common";
+@import "images";
+@import "food";
+@import "amenities";
+@import "similarProperty";
+@import "footer";
+
+.propContainer {
+    margin: 20px auto;
+    max-width: 1250px;
+
+    .basicInfo {
+        margin-top: 50px;
+    }
+
+    .name {
+        color: $headingColor;
+        font-family: $headingFont;
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .address {
+        color: $secondaryColor;
+        font-family: $textFont;
+        font-size: 20px;
+        font-weight: 200;
+        margin-bottom: 25px;
+    }
+
+}

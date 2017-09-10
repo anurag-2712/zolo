@@ -1,0 +1,49 @@
+.similarProp {
+    border: 1px solid #808284;
+    display: inline-block;
+    height: 260px;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+    width: 16.5%;
+
+    .similarImg {
+        margin: 0 auto 10px;
+        max-height: 150px;
+        max-width: 180px;
+
+        img {
+            max-height: 150px;
+            max-width: 180px;
+        }
+    }
+
+    .similarName {
+        color: $headingColor;
+        font-family: $textFont;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    .similarAddress {
+        height: 58px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+
+        .similarAddr1 {
+            margin-bottom: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            width: 100%;
+        }
+    }
+
+    .similarDetails {
+        margin-left: 5px;
+
+        a {
+            color: $subHeadingColor;
+        }
+    }
+}

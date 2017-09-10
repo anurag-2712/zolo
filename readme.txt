@@ -1,0 +1,21 @@
+Directory Structure :
+=====================
+- package.json : contains details about the project and all the modules required
+- webpack.config.js : webpack configurations
+- src
+    - index.html: contains the basic html skeleton for the page and meta tags like keyword and description for SEO purpose.
+    - client.min.js : output file
+    - images : folder contains all the images used on the page
+    - stylesheet : folder contains all the sass files for styling the page. Separate files for separate modules
+    - propertyPage : contains the actual source code, all the files.
+        - app.js : Entry point file
+        - propertyData.js : Second file where the control goes wherein an ajax call is made to fetch the property data
+        - displayProperty.js : Wrapper class for rendering all the page data
+        - header.js : displays the header on the page
+        - displayImages.js : makes an ajax call with the property id and fetch and render the top images section
+        - displayBasicInfo.js : Displays the second section related to basic details about the property
+        - displayFood.js : process the data related to food facilities available and displays the same
+        - displayAmenities.js : process all the data related to amenities and displays with images
+        - displaySimilarProperties.js : fetch the data related to similar properties with variable params latitude & longitude and renders the same
+        - footer.js : Displays the last section Footer on the page.
+        - constants.js : All the constants/titles shown on the page are placed at a single point in this file
